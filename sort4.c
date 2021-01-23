@@ -1,3 +1,4 @@
+#include<stdio.h>
 void sort4Integers(int a, int b, int c, int d)
 {
   if(a>b)
@@ -31,4 +32,10 @@ void sort4Integers(int a, int b, int c, int d)
     b=b-c;
   }
   printf("%d\n%d\n%d\n%d\n",a,b,c,d);
+}
+
+void main(){
+    int k,l,m,n;
+    scanf("%d %d %d %d", &k, &l, &m, &n);
+    sort4Integers(k,l,m,n);
 }
